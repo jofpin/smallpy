@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #       
-#          Copyright 2014 @mrjopino  <mrjopino@gmail.com>
+#          Copyright 2014 @jofpin  <mrjopino@gmail.com>
 #
 #################
 import requests #
