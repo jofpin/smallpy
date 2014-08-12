@@ -36,7 +36,7 @@ def main():
     color = {"blue": "\033[94m", "green": "\033[92m", "white": "\033[0m", "red": "\033[91m"}
 
     print "\t\t--------------" + color['green'] + "bullback" + color['white'] + "------------"
-    print "\t\tx      Developed by @jofpin      x"
+    print "\t\tx      Developed by " + color['blue'] + "@jofpin" +  color['white'] + "      x"
     print "\t\tx           happy hacker         x"
     print "\t\t----------------------------------\n\n"
 
