@@ -43,10 +43,9 @@ def main():
     while True:
 
         cmd = raw_input("bullb:~$ ")
-        if cmd == "about":
+        if cmd == "about": # Mini description & author of script
             print color['blue'] + "\t\nHello, This is a small type of connection (backdoor) #!" + color['white']
             print color['blue'] + "\t\nWritter for " + color['green'] + "@jofpin" + color['white']
-
         if cmd == "exit":
             print color['blue'] + "Bullback: " + color['red'] + "OFF" + color['white']
             break
