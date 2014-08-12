@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 #       
-#          Copyright 2014 @jofpin  <mrjopino@gmail.com>
+#          Copyright 2014 @jofpin  <jofpin@gmail.com>
 #
 #################
 import requests #
@@ -25,7 +25,7 @@ target = raw_input(color['blue'] + "Insert target -> " + color['white'])
 
 if target:
     print "\t\t--------------" + color['green'] + "bullback" + color['white'] + "------------"
-    print "\t\tx      Developed by @mrjopino    x"
+    print "\t\tx      Developed by @jofpin    x"
     print "\t\tx           happy hacker         x"
     print "\t\t----------------------------------\n\n"
 
