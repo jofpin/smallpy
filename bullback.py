@@ -39,10 +39,12 @@ def main():
     print "\t\tx      Developed by " + color['blue'] + "@jofpin" +  color['white'] + "      x"
     print "\t\tx           happy hacker         x"
     print "\t\t----------------------------------\n\n"
+    
+    nick = raw_input("Your nick: ")
 
     while True:
 
-        cmd = raw_input("bullb:~$ ")
+        cmd = raw_input(nick + ":~$ ")
         if cmd == "about": # Mini description & author of script
             print color['blue'] + "\t\nHello, This is a small type of connection (backdoor) #!" + color['white']
             print color['blue'] + "\t\nWritter for " + color['green'] + "@jofpin" + color['white']
