@@ -73,11 +73,12 @@ def main():
 
 	opener = urllib2.build_opener()
 
+	core = opener.open(host, login).read()
+
 	opener.addheaders = [(
     	"User-agent", "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:32.0) Gecko/20100101 Firefox/32.0"
     	)]
 
-	core = opener.open(host, login).read()
 
 	if re.search("Denied", core) == None:
 		print "\n[" + color['green'] + "+" + color['white'] + "]" + color['blue'] + " Successful Brutting!\n"
